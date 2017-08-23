@@ -9,7 +9,7 @@ export default class SoundComponent extends Component {
     render() {
         return (
             <View style={{
-                height: 34,
+                flex: 1,
                 flexDirection: 'row',
                 alignItems: 'center',
                 justifyContent: 'space-between',

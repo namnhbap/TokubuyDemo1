@@ -27,7 +27,7 @@ export default class LineComponent extends Component {
 
 const styles = StyleSheet.create({
     Container: {
-        height: 34,
+        flex: 1,
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',

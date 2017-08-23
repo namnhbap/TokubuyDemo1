@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-    Image,
+    Image, ScrollView,
     StyleSheet, Text,
     View,
 } from 'react-native';
@@ -108,8 +108,6 @@ const styles = StyleSheet.create({
     BackGround: {
         height: '100%',
         width: '100%',
-        justifyContent: 'center',
-        alignItems: 'center'
     },
     Header: {
         flexDirection: 'row',
